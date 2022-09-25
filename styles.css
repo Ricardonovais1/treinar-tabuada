@@ -161,7 +161,7 @@ h2 {
         margin-bottom: none;
     }
     .header p {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .check {
         width: 4rem;
@@ -170,12 +170,13 @@ h2 {
     }
     .scoreCerto,
     .scoreErrado {
-    font-size: 5rem;
-}
-.correct-label,
-.incorrect-label,
-.dots {
-    font-size: 3rem;
-}
+    font-size: 4rem;
+    }
+    .correct-label,
+    .incorrect-label,
+    .dots {
+        font-size: 2rem;
+    }
+    
 }
 
