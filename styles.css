@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Reem+Kufi+Fun&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Pacifico&family=Reem+Kufi+Fun&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Spice&family=Pacifico&family=Reem+Kufi+Fun&display=swap');
 
 *, *::after, *::before {
     box-sizing: border-box;
@@ -17,7 +17,7 @@ body {
     background-color: black;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    overflow: scroll;
+    /* overflow: scroll; */
     
 }
 
@@ -53,9 +53,10 @@ body {
 
 h1 {
     /* font-family: 'Courier New', Courier, monospace */
-    font-family: 'Bungee Spice', cursive;
+    font-family: 'Bungee', cursive;
     font-size: 4rem;
     margin-bottom: -.5rem;
+    color: var(--base-color-hot);
 
 }
 
