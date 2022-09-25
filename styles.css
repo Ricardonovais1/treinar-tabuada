@@ -148,3 +148,18 @@ h2 {
 
 }
 
+@media (max-width: 600px) {
+    body {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: none;
+
+    }
+}
+
