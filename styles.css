@@ -157,9 +157,25 @@ h2 {
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 3rem;
         margin-bottom: none;
-
     }
+    .header p {
+        font-size: 2rem;
+    }
+    .check {
+        width: 4rem;
+        height: 4rem;
+        font-size: 2.2rem; 
+    }
+    .scoreCerto,
+    .scoreErrado {
+    font-size: 5rem;
+}
+.correct-label,
+.incorrect-label,
+.dots {
+    font-size: 3rem;
+}
 }
 
